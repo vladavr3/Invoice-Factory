@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <test thread-count="5" name="Testing(failed)">
+    <classes>
+      <class name="tests.BusinessTest">
+        <methods>
+          <include name="bussinesNameField"/>
+          <include name="bankName"/>
+          <include name="accountInput"/>
+          <include name="cityInput"/>
+          <include name="businessTabSwitch"/>
+          <include name="confirmAddingBank"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="addBank"/>
+          <include name="zipInput"/>
+          <include name="countrySelection"/>
+          <include name="paymentInstrcInput"/>
+          <include name="swiftInput"/>
+          <include name="regNumberInput"/>
+          <include name="bankList"/>
+          <include name="streetInput"/>
+          <include name="chooseCurrency"/>
+          <include name="addBusiness"/>
+        </methods>
+      </class> <!-- tests.BusinessTest -->
+      <class name="tests.NewInvoiceTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="cancelAll"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.NewInvoiceTest -->
+      <class name="tests.LogInTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="wrongLogInAttempts"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.LogInTest -->
+      <class name="tests.InvoicesListTest">
+        <methods>
+          <include name="editInvoice"/>
+          <include name="deleteInvoice"/>
+          <include name="setUp"/>
+          <include name="datesSelection"/>
+          <include name="previewInvoice"/>
+          <include name="duplicateInvoice"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.InvoicesListTest -->
+    </classes>
+  </test> <!-- Testing(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
